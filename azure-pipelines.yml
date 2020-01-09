@@ -39,6 +39,7 @@ steps:
   displayName: 'Publish NuGet package'
   inputs:
     command: push
-    publishVstsFeed: 'Space Game - web - Dependencies/Tailspin.SpaceGame.Web.Models_1'
+    nuGetFeedType: 'internal'
+    publishVstsFeed: '316dd1d4-4b0a-4840-9e5d-d5bbdf9d2b0d/7915dace-8aac-4a36-8659-404fc3a76f28'
     allowPackageConflicts: true
   condition: succeeded()
